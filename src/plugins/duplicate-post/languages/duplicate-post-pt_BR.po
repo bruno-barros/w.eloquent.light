@@ -1,0 +1,189 @@
+# Translation of Duplicate Post in Portuguese (Brazil)
+# This file is distributed under the same license as the Duplicate Post package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-02-26 21:16-0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.7.3\n"
+"Project-Id-Version: Duplicate Post\n"
+"POT-Creation-Date: \n"
+"Last-Translator: projetos@clinimkt.com.br <projetos@clinimkt.com.br>\n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+
+#: duplicate-post-options.php:197
+msgid "Toggle textfield/checkboxes"
+msgstr ""
+
+#: duplicate-post-options.php:220
+msgid "Additional comma-separated list list of meta fields"
+msgstr ""
+
+#: duplicate-post-options.php:221
+msgid "Select the custom fields you don't want to be copied"
+msgstr ""
+
+#: duplicate-post-admin.php:115
+msgid "Clone this item"
+msgstr "Clone este item"
+
+#: duplicate-post-admin.php:116
+msgid "Clone"
+msgstr "Clonar"
+
+#: duplicate-post-admin.php:118 duplicate-post-admin.php:136
+#: duplicate-post-common.php:66 duplicate-post-common.php:70
+#: duplicate-post-common.php:136
+msgid "Copy to a new draft"
+msgstr "Clonar conteúdo"
+
+#: duplicate-post-admin.php:119
+msgid "New Draft"
+msgstr "Novo Rascunho"
+
+#: duplicate-post-admin.php:163
+msgid "No post to duplicate has been supplied!"
+msgstr "Nenhum post foi fornecido para duplicação!"
+
+#: duplicate-post-admin.php:185
+msgid "Copy creation failed, could not find original:"
+msgstr "A criação da cópia falhou, o original não foi encontrado:"
+
+#: duplicate-post-admin.php:351 duplicate-post-options.php:70
+msgid "Donate"
+msgstr "Contribuir"
+
+#: duplicate-post-admin.php:352 duplicate-post-options.php:69
+msgid "Translate"
+msgstr "Traduzir"
+
+#: duplicate-post-options.php:30 duplicate-post-options.php:63
+msgid "Duplicate Post Options"
+msgstr "Opções do Duplicate Post"
+
+#: duplicate-post-options.php:30
+msgid "Duplicate Post"
+msgstr "Duplicar Post"
+
+#: duplicate-post-options.php:68
+msgid "Visit plugin site"
+msgstr "Visite o site do plugin"
+
+#: duplicate-post-options.php:95
+msgid "Copy post/page date also"
+msgstr "Também copiar a data do post/página"
+
+#: duplicate-post-options.php:98
+msgid "Normally, the new copy has its publication date set to current time: check the box to copy the original post/page date"
+msgstr "Normalmente, a nova cópia tem a data de publicação definida como a hora atual: marque a caixa para copiar a data original do post/página"
+
+#: duplicate-post-options.php:103
+msgid "Copy post/page status"
+msgstr "Copiar estado do post/página "
+
+#: duplicate-post-options.php:107
+msgid "Copy the original post status (draft, published, pending) when cloning from the post list."
+msgstr "Copie o estado original do post (rascunho, publicado, pendente) quando clonar a partir da lista de post."
+
+#: duplicate-post-options.php:112
+msgid "Copy excerpt"
+msgstr "Copiar resumo"
+
+#: duplicate-post-options.php:116
+msgid "Copy the excerpt from the original post/page"
+msgstr "Copiar o resumo do post/página original"
+
+#: duplicate-post-options.php:121
+msgid "Copy attachments"
+msgstr "Copiar anexos"
+
+#: duplicate-post-options.php:125
+msgid "Copy the attachments from the original post/page"
+msgstr "Copiar anexos do post/página original"
+
+#: duplicate-post-options.php:130
+msgid "Copy children"
+msgstr ""
+
+#: duplicate-post-options.php:134
+msgid "Copy the children from the original post/page"
+msgstr ""
+
+#: duplicate-post-options.php:196
+msgid "Do not copy these fields"
+msgstr "Não copie estes campos"
+
+#: duplicate-post-options.php:202
+msgid "Comma-separated list of meta fields that must not be copied"
+msgstr "Lista separada por vírgulas dos campos meta que não deve ser copiado"
+
+#: duplicate-post-options.php:226
+msgid "Do not copy these taxonomies"
+msgstr "Não copie estas taxonomias"
+
+#: duplicate-post-options.php:241
+msgid "Select the taxonomies you don't want to be copied"
+msgstr "Selecione as taxonomias que você não deseja copiar"
+
+#: duplicate-post-options.php:246
+msgid "Title prefix"
+msgstr "Prefixo do título"
+
+#: duplicate-post-options.php:250
+msgid "Prefix to be added before the original title, e.g. \"Copy of\" (blank for no prefix)"
+msgstr "Prefixo a ser adicionado antes do título original, por exemplo, \"Cópia de\" (em branco para sem prefixo)"
+
+#: duplicate-post-options.php:255
+msgid "Title suffix"
+msgstr "Sufixo do título"
+
+#: duplicate-post-options.php:259
+msgid "Suffix to be added after the original title, e.g. \"(dup)\" (blank for no suffix)"
+msgstr "Sufixo a ser adicionado após o título original, por exemplo, \"(dup)\" (em branco para nenhum sufixo)"
+
+#: duplicate-post-options.php:264
+msgid "Roles allowed to copy"
+msgstr "Funções permitidas para copiar"
+
+#: duplicate-post-options.php:278
+msgid "Warning: users will be able to copy all posts, even those of other users"
+msgstr "Atenção: os usuários serão capazes de copiar todas as mensagens, mesmo aqueles de outros usuários"
+
+#: duplicate-post-options.php:283
+msgid "Show links in"
+msgstr "Mostrar links"
+
+#: duplicate-post-options.php:287
+msgid "Post list"
+msgstr "Lista de Post"
+
+#: duplicate-post-options.php:290
+msgid "Edit screen"
+msgstr "Tela de Edição"
+
+#: duplicate-post-options.php:293
+msgid "Admin bar"
+msgstr "Barra de Administração"
+
+#: duplicate-post-options.php:299
+msgid "Save Changes"
+msgstr "Salvar Alterações"
+
+#: duplicate-post.php:44
+msgid "Settings"
+msgstr "Configurações"
+
+msgid "http://lopo.it/duplicate-post-plugin/"
+msgstr "http://lopo.it/duplicate-post-plugin/"
+
+msgid "Clone posts and pages."
+msgstr "Clonar posts e páginas"
+
+msgid "Enrico Battocchi"
+msgstr "Enrico Battocchi"
+
+msgid "http://lopo.it"
+msgstr "http://lopo.it"

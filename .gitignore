@@ -1,0 +1,42 @@
+### Miscellaneous
+.DS_Store
+Thumbs.db
+.htaccess
+!/app/.htaccess
+node_modules
+debug.log
+
+### Composer
+composer.lock
+/vendor/
+
+### IDE
+.idea/
+
+### Wordpress
+/cms/*
+!/cms/.gitkeep
+/src/languages/*
+/src/uploads/*
+!/src/uploads/.gitkeep
+/src/themes/*
+!/src/themes/.gitkeep
+!/src/themes/default
+!/src/themes/default-child
+!/src/themes/intranet
+/src/cache
+
+
+/src/storage/cache/*
+/src/storage/logs/*
+/src/storage/meta/*
+/src/storage/sessions/*
+/src/storage/views/*
+
+# Compiled Assets
+/src/themes/**/_*.css
+/src/themes/**/_*.js
+
+### Environment Credentials
+/.env*php
+!/.env.example.php

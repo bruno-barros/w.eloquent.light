@@ -1,0 +1,69 @@
+{
+  "name": "bruno-barros/w.eloquent.light",
+  "description": "Wordpress integrated with Laravel via Composer. Together, but independents.",
+  "keywords": [
+    "Laravel",
+    "framework",
+    "WordPress"
+  ],
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Bruno Barros",
+      "email": "bruno@brunobarros.com",
+      "homepage": "http://www.brunobarros.com/"
+    }
+  ],
+  "type": "project",
+  "autoload": {
+    "files": [
+      "src/Core/Support/helpers.php",
+      "src/themes/default/app/Support/helpers.php"
+    ],
+    "classmap": [
+    ],
+    "psr-4": {
+      "Core\\": "src/Core",
+      "App\\": "src/themes/default/app"
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "optimize-autoloader": true
+  },
+  "require": {
+    "php": ">=5.4",
+    "symfony/browser-kit": "2.5.*",
+    "symfony/console": "2.5.*",
+    "symfony/css-selector": "2.5.*",
+    "symfony/debug": "2.5.*",
+    "symfony/dom-crawler": "2.5.*",
+    "symfony/finder": "2.5.*",
+    "symfony/http-foundation": "2.5.*",
+    "symfony/http-kernel": "2.5.*",
+    "symfony/process": "2.5.*",
+    "symfony/routing": "2.5.*",
+    "symfony/security-core": "2.5.*",
+    "symfony/translation": "2.5.*",
+    "johnpbloch/wordpress": "4.4.*",
+	"brain/cortex": "dev-master",
+    "intervention/image": "2.1.*",
+    "tijsverkoyen/css-to-inline-styles": "~1.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.2.*",
+    "mockery/mockery": "*",
+    "10up/wp_mock": "dev-master",
+	"laracasts/integrated" : "0.15.6"
+  },
+  "extra": {
+    "installer-paths": {
+      "src/plugins/{$name}/": ["type:wordpress-plugin"],
+      "src/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "src/themes/{$name}/": ["type:wordpress-theme"]
+    },
+    "wordpress-install-dir": "cms"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
